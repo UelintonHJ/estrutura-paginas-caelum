@@ -22,6 +22,11 @@ figure {
     border: 1px solid lightgrey;
 }
 
+figure img {
+    width: inherit;
+    height: inherit;
+}
+
 figcaption {
     margin-top: 10px;
 }
