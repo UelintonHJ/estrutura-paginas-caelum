@@ -2,6 +2,8 @@ body {
     width: 940px;
     margin: 0 auto 0 auto;
     font-family: "Helvetica", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     color: #3D3D3D;
 }
 
@@ -72,4 +74,13 @@ figcaption {
 
 .contato__info-descricao {
     margin-left: 10px;
+}
+
+.rodape__logo {
+    width: 6rem;
+}
+
+.rodape__copyright {
+    display: inline;
+    margin-left: 1em;
 }
