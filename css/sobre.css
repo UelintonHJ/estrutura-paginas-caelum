@@ -8,10 +8,18 @@ body {
     color: #3D3D3D;
 }
 
+body img {
+    margin-top: 1rem;
+}
+
 .titulo {
     padding: 10px;
     font-size: 32px;
     background-color: #E1EDF2;
+}
+
+p {
+    text-align: justify;
 }
 
 .subtitulo {
@@ -37,13 +45,21 @@ figcaption {
 }
 
 .matriz-musicdot {
-    width: 550px;
+    width: auto;
     margin: 0 auto 0 auto;
 }
 
+.matriz-musicdot img {
+    width: 100%;
+}
+
 .familia-tupfeln {
-    width: 275px;
+    width: 550px;
     float: right;
+}
+
+.familia-tupfeln img {
+    width: 100%;
 }
 
 .figure img {
@@ -51,7 +67,8 @@ figcaption {
 }
 
 .contato__subtitulo {
-    display: inline;;
+    display: inline;
+    ;
 }
 
 .contato__secao {
@@ -61,7 +78,7 @@ figcaption {
 }
 
 .contato__secao--telefone {
-    margin-left: 32px;
+    margin-left: 0px;
 }
 
 .contato__info {
@@ -71,11 +88,17 @@ figcaption {
 
 .contato__info-titulo,
 .contato__info-descricao {
-    display: inline;;
+    display: inline;
 }
 
 .contato__info-descricao {
     margin-left: 10px;
+}
+
+.rodape {
+    padding: 0 0 1.75em 0;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 .rodape__logo {
@@ -85,4 +108,42 @@ figcaption {
 .rodape__copyright {
     display: inline;
     margin-left: 1em;
+}
+
+@media (max-width: 1040px) {
+    .familia-tupfeln {
+        width: auto;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 446px) {
+    body img {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .contato__subtitulo {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .contato__info {
+        padding-left: 5px;
+        font-size: .92em;
+        border-left: 2px solid lightgray;
+    }
+
+    .contato__secao--telefone {
+        margin-left: 0;
+    }
+
+    .rodape {
+        font-size: .92em;
+    }
 }
