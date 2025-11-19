@@ -1,5 +1,6 @@
 body {
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin: 0 auto 0 auto;
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     font-size: 16px;
@@ -18,6 +19,8 @@ body {
 }
 
 figure {
+    max-width: 100%;
+    box-sizing: border-box;
     margin: 30px;
     padding: 15px;
     text-align: center;
