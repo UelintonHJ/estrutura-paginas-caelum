@@ -1,8 +1,8 @@
-.--largura-maxima {
+.cursos__chamada--largura-maxima {
     width: 100%;
 }
 
-.--largura-grande {
+.cursos__chamada--largura-grande {
     width: 80%;
 }
 
@@ -95,46 +95,46 @@
 }
 
 .curso--tecladopiano {
-    background-image: url(../img/icone-teclado-e-piano.svg);
+    background-image: url(../img/icone-teclado-piano.svg);
 }
 
 .curso--violaoguitarra {
-    background-image: url(../img/icone-viola-e-guitarra.svg);
+    background-image: url(../img/icones-violao-guitarra.svg);
 }
 
 .curso--baixo {
-    background-image: url(../img/icone-baixo.svg);
+    background-image: url(../img/icones-baixo.svg);
 }
 
 .curso--bateria {
-    background-image: url(../img/icone-bateria.svg);
+    background-image: url(../img/icones-bateria.svg);
 }
 
 .curso--percussao {
-    background-image: url(../img/icone-percussao.svg);
+    background-image: url(../img/icones-percussao.svg);
 }
 
 .curso--canto {
-    background-image: url(../img/icone-canto.svg);
+    background-image: url(../img/icones-canto.svg);
 }
 
 .curso--audio {
-    background-image: url(../img/icone-audio.svg);
+    background-image: url(../img/icones-audio.svg);
 }
 
 .curso--teoria {
-    background-image: url(../img/icone-teoria-musical.svg);
+    background-image: url(../img/icones-teoria.svg);
 }
 
 .curso--sopro {
-    background-image: url(../img/icone-sopro.svg);
+    background-image: url(../img/icones-sopro.svg);
 }
 
 .curso--cordas {
     background-image: url(../img/icone-cordas.svg);
 }
 
-.curso__lista img {
+.cursos__lista img {
     width: 2rem;
     height: 2rem;
     margin-bottom: 5px;
@@ -161,20 +161,20 @@
         display: none;
     }
 
-    .curso__lista {
+    .cursos__lista {
         grid-template-columns: repeat(5, 7rem);
         grid-template-rows: 5.5rem 5.5rem 5.5rem;
         gap: .8rem;
     }
 
-    .curso__lista li {
+    .cursos__lista li {
         background-repeat: no-repeat;
         background-size: 2rem 2rem;
         background-position: top 1rem center;
         padding-top: 2.5rem;
     }
 
-    .curso__lista .curso--destaque {
+    .cursos__lista .curso--destaque {
         order: -1;
         grid-area: 1/1/span 3/3;
         padding-top: 5.5rem;
@@ -196,14 +196,14 @@
         font-size: 2.5rem;
     }
 
-    .curso__lista {
+    .cursos__lista {
         grid-template-columns: repeat(6, 9.3rem);
         grid-template-rows: 7.5rem 7.5rem;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
 
-    .curso__lista li {
+    .cursos__lista li {
         background-repeat: no-repeat;
         background-size: 3rem 3rem;
         background-position: top 1rem center;
@@ -213,6 +213,14 @@
     .cursos__lista .curso--destaque {
         order: -1;
         grid-area: 1/1/span 2/2;
+        padding-top: 6rem;
+        background-size: 6rem 6rem;
+        background-position: top 3.6rem center;
+    }
+
+    .cursos__lista .curso--destaque2 {
+        order: -1;
+        grid-area: 1/4/span 2/5;
         padding-top: 6rem;
         background-size: 6rem 6rem;
         background-position: top 3.6rem center;
@@ -236,7 +244,7 @@
 }
 
 @media(min-width: 1600px) {
-    .curso__lista {
+    .cursos__lista {
         grid-template-columns: repeat(6, 13rem);
     }
 
